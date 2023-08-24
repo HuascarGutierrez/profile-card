@@ -1,50 +1,58 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="/styles.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
-  <title>ovnigato | Profile card component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-</head>
-<body>
-  <article class="card"> 
-    <div>
-        <img src="images/bg-pattern-card.svg" alt="">
-    </div>
-    <div>
-        <div class="ho">
-          <img src="images/image-victor.jpg" class="image-profile">
+    <title>ovni | Profile card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="styles/tablet768.css" media="screen and (min-width: 768px)">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Noto+Sans:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <article class="card">
+      <img src="./images/bg-pattern-card.svg" alt="" class="profile-back">
+      <div>
+        <div class="image-profile">
+          <img src="./images/image-victor.jpg" alt="victor-profile">
         </div>
         <div class="description">
           <div class="data">
-            <span>victor crest</span>
+            <span>Victor Crest</span>
             <span>26</span>
           </div>
-          <span>london</span>
+          <span>London</span>
         </div>
         <div class="stat">
-          <div>
-            <span>80k</span>
-            <span>followers</span>
+          <div >
+            <span>80K</span>
+            <span>Followers</span>
           </div>
           <div>
-            <span>803k</span>
-            <span>likes</span>
+            <span>803K</span>
+            <span>Likes</span>
           </div>
           <div>
-            <span>1.4k</span>
-            <span>photos</span>
+            <span>1.4K</span>
+            <span>Photos</span>
           </div>
         </div>
-    </div>
-  </article>
-
-</body>
+      </div>
+    </article>
+  </body>
 </html>
